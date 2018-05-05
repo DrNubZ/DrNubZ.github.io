@@ -1,3 +1,8 @@
+body {	
+  background: url('back.gif') no-repeat center center fixed;	
+  background-size: cover;	
+}
+
 @font-face {
   font-family: 'Bebas Neue';
   font-style: normal;
