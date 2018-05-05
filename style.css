@@ -1,26 +1,17 @@
-#video { 
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translateX(-50%) translateY(-50%);
-  background-size: cover; 
+body {
+  background: url('background.gif') no-repeat center center fixed;
+  background-size: cover;
 }
 
 @font-face {
-  font-family: 'Bebas Neue';
+  font-family: 'Courier New';
   font-style: normal;
   font-weight: normal;
-  src: local('Bebas Neue'), url('BebasNeue.woff') format('woff');
 }
 
 * {
-  font-family: 'Bebas Neue';
-  color: cyan;
+  font-family: 'Courier New';
+  color: White;
 }
 
 .centerContainer {
@@ -40,7 +31,7 @@
   width: 400px;
   margin-left: auto;
   margin-right: auto;
-  background-color: cyan;
+  background-color: White;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -78,4 +69,8 @@
 .scrollbar::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 	background-color: rgba(255, 255, 255, 0.5);
+}
+
+a {
+    text-decoration: none;
 }
