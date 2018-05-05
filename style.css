@@ -11,7 +11,7 @@ body {
 
 * {
   font-family: 'Courier New';
-  color: White;
+  color: Cyan;
 }
 
 .centerContainer {
@@ -31,7 +31,7 @@ body {
   width: 400px;
   margin-left: auto;
   margin-right: auto;
-  background-color: White;
+  background-color: Cyan;
   margin-top: 20px;
   margin-bottom: 30px;
 }
