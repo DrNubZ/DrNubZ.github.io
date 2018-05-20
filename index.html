@@ -24,9 +24,15 @@
       </div>
     </div>
 	  
-    <embed src="Annaland - Tokyo (Popeska Remix).mp3" autostart="true" loop="true" volume=".20"
-      width="2" height="0">
-    </embed>
+    <div>
+     <video autoplay loop id="video">	     <video autoplay loop id="video">
+       <source src="u.mp4" type="video/mp4">	       <source src="u.mp4" type="video/mp4">
+     </video>	     </video>
+       <script>	       <script>
+         var video = document.currentScript.parentElement;	         var video = document.currentScript.parentElement;
+         video.volume = 0.01;	         video.volume = 0.01;
+	    </script>
+	  </div>
 	  
   </body>
 </html>
