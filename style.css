@@ -1,15 +1,7 @@
-video#video {
-   position: fixed;
-   top: 50%;
-   left: 50%;
-   min-width: 100%;
-   min-height: 100%;
-   width: auto;
-   height: auto;
-   z-index: -100;
-   transform: translateX(-50%) translateY(-50%);
-   background-size: cover;
- }
+body {
+  background: url('back.gif') no-repeat center center fixed;
+  background-size: cover;
+}
 
 @font-face {
   font-family: 'Courier New';
