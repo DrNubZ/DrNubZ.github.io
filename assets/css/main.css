@@ -35,11 +35,11 @@
   margin-top: 15px;
   overflow: hidden;
   font-size: 45px;
-  height: calc(100% - 450px);
+  height: calc(100% - 350px);
   width: 500px;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 6px;
+  padding-right: 4px;
 }
 
 
