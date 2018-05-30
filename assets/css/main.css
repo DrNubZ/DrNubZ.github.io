@@ -32,9 +32,9 @@
 
 #membersList {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 15px;
   overflow: hidden;
-  font-size: 75px;
+  font-size: 45px;
   height: calc(100% - 450px);
   width: 500px;
   margin-left: auto;
